@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepThought - Technical Project Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="#0029FF" stroke-width="2"/>
+                    <path d="M8 12h8M12 8v8" stroke="#0029FF" stroke-width="2"/>
+                </svg>
+                <span class="logo-text">DEEP <strong>THOUGHT</strong></span>
+            </div>
+        </div>
+        <div class="header-center">
+            <h1 class="page-title">Technical Project Management</h1>
+        </div>
+        <div class="header-right">
+            <button class="icon-btn">🔔</button>
+            <button class="icon-btn">👤</button>
+            <button class="icon-btn">⋮</button>
+            <button class="submit-btn">Submit task</button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar (Journey Board) -->
+        <aside class="journey-board" id="journeyBoard">
+            <div class="journey-header">
+                <h2>Journey Board</h2>
+                <button class="close-btn" id="closeJourneyBtn">✕</button>
+            </div>
+            <div class="journey-content">
+                <h3>Explore the world of management</h3>
+                <ul class="journey-list">
+                    <li>Technical Project Management</li>
+                    <li>Threadbuild</li>
+                    <li>Structure you pointers</li>
+                    <li>4SA Method</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Journey Board Toggle Button (when collapsed) -->
+            <button class="journey-toggle-btn" id="journeyToggleBtn">
+                <span>Journey Board</span>
+                <span class="toggle-icon">→</span>
+            </button>
+
+            <!-- Task Content Section -->
+            <div class="task-header">
+                <div class="breadcrumb">
+                    <span>Technical Project Management</span>
+                </div>
+            </div>
+
+            <!-- Introduction Section -->
+            <section class="intro-section">
+                <h2>Explore the world of management</h2>
+                <p class="intro-text">
+                    As a project manager, you play an important role in leading a project through initiation, 
+                    planning, execution, monitoring, controlling and completion. How? Do you want to manage 
+                    each and every step of your life?
+                </p>
+            </section>
+
+            <!-- Assets Container (will be populated by JS) -->
+            <div id="assetsContainer" class="assets-container">
+                <!-- Assets will be dynamically inserted here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
