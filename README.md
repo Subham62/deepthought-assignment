@@ -8,7 +8,7 @@ This repository contains my submission for the DeepThought Frontend Intern "Role
 ### Task 1: Webpage Creation
 - Implemented pixel-accurate HTML/CSS based on the provided Figma design
 - Created two states: Journey Board collapsed and Journey Board expanded
-- Figma reference: https://www.figma.com/file/hrBbLgcBWyoomChuI
+- Figma reference: https://www.figma.com/design/hrBbLgcBWyoomChuEKFmpn/Web-Development-Assignment
 
 ### Task 2: Dynamic Elements
 - Built dynamic page rendering from local JSON data structure
